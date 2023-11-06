@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        #main-div {
+            margin: auto;
+            width: 80%;
+        }
+
+
+        #Logo-navigation-div {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #logo-div {
+            background-color: burlywood;
+            float: left;
+            width: 50%;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 15px;
+        }
+
+        #navigation-div {
+            background-color: burlywood;
+            float: right;
+            width: 50%;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        .container-div {
+
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .size {
+            background-color: rgb(71, 164, 246);
+            width: 24%;
+            height: 150px;
+        }
+
+        .box1-align-div {
+            float: left;
+        }
+
+        .box2-align-div {
+            float: left;
+            margin-left: 1.3%;
+        }
+
+        .box3-align-div {
+            float: left;
+            margin-left: 1.3%;
+            height: 150px;
+        }
+
+        .box4-align-div {
+            float: right;
+        }
+
+        #footer-div {
+            background-color: burlywood;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        #container-5-box1 {
+            float: left;
+        }
+
+        #container-5-box2 {
+            float: left;
+            margin-left: 5%;
+        }
+
+        #container-5-box3 {
+            float: right;
+        }
+
+        .container-5-size {
+            background-color: burlywood;
+            width: 30%;
+            height: 170px;
+            text-align: center;
+            line-height: 170px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-div">
+        <div id="Logo-navigation-div" class="clearfix">
+            <div id="logo-div">
+                Logo
+            </div>
+            <div id="navigation-div">
+                Navigation
+            </div>
+
+        </div>
+
+        <div id="main-container-div ">
+            <div id="container-1" class="container-div clearfix">
+                <div id="box1-div" class="size box1-align-div"></div>
+                <div id="box2-div" class="size box2-align-div"></div>
+                <div id="box3-div" class="size box3-align-div"></div>
+                <div id="box4-div" class="size box4-align-div"></div>
+            </div>
+            <div id="container-2" class="container-div clearfix">
+                <div id="box1-div" class="size box1-align-div"></div>
+                <div id="box2-div" class="size box2-align-div"></div>
+                <div id="box3-div" class="size box3-align-div"></div>
+                <div id="box4-div" class="size box4-align-div"></div>
+            </div>
+            <div id="container-3" class="container-div clearfix">
+                <div id="box1-div" class="size box1-align-div"></div>
+                <div id="box2-div" class="size box2-align-div"></div>
+                <div id="box3-div" class="size box3-align-div"></div>
+                <div id="box4-div" class="size box4-align-div"></div>
+            </div>
+            <div id="container-4" class="container-div clearfix">
+                <div id="box1-div" class="size box1-align-div"></div>
+                <div id="box2-div" class="size box2-align-div"></div>
+                <div id="box3-div" class="size box3-align-div"></div>
+                <div id="box4-div" class="size box4-align-div"></div>
+            </div>
+            <div id="container-5-div" class="container-div  clearfix">
+                <div id="container-5-box1" class="container-5-size">Box 1</div>
+                <div id="container-5-box2" class="container-5-size">Box 2</div>
+                <div id="container-5-box3" class="container-5-size">Box 3</div>
+            </div>
+        </div>
+        <div id="footer-div">
+            Footer
+        </div>
+    </div>
+
+</body>
+
+</html>
