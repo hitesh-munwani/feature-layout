@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .backgroundcolor {
+        background-color: rgb(205, 201, 201);
+      }
+
+      .justify-content {
+        justify-content: center;
+      }
+
+      .display-flex {
+        display: flex;
+      }
+
+      .align-items {
+        align-items: center;
+      }
+      #row1-div {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+
+      #box1 {
+        height: 250px;
+        width: 50%;
+      }
+      .box {
+        width: 335px;
+        height: 123px;
+      }
+      #boxex{
+        width: 50%;
+        margin-left: 4px;
+      }
+      #row2-boxex{
+        width: 50%;
+        margin-right: 4px;
+      }
+      #container1{
+        margin-bottom: 4px;
+        justify-content: space-between;
+      }
+      #container2{
+        justify-content: space-between;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="row1-div" class="display-flex">
+        <div id="box1" class="backgroundcolor justify-content display-flex align-items">
+            1
+        </div>
+        <div id="boxex" class="">
+        <div id="container1" class="display-flex" >
+          <div class="box backgroundcolor display-flex justify-content align-items">2</div>
+          <div class="box backgroundcolor display-flex justify-content align-items">3</div>
+        </div>
+        <div id="container2" class="display-flex">
+          <div class="box backgroundcolor display-flex justify-content align-items">4</div>
+          <div class="box backgroundcolor display-flex justify-content align-items">5</div>
+        </div>
+          
+        </div>
+      </div>
+      <div id="row2-div" class="display-flex order">
+        
+        <div id="row2-boxex" class="">
+        <div id="container1" class="display-flex" >
+          <div class="box backgroundcolor display-flex justify-content align-items">2</div>
+          <div class="box backgroundcolor display-flex justify-content align-items">3</div>
+        </div>
+        <div id="container2" class="display-flex">
+          <div class="box backgroundcolor display-flex justify-content align-items">4</div>
+          <div class="box backgroundcolor display-flex justify-content align-items">5</div>
+        </div>
+          
+        </div>
+        <div id="box1" class="backgroundcolor justify-content display-flex align-items">
+            1
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

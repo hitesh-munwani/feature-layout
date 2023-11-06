@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main-div {
+         margin: auto;
+         width: 70%;
+        }
+
+        #logo-div {
+            width: 100%;
+            height: 50px;
+            padding-left: 20px;
+            margin-bottom: 5px;
+
+        }
+
+        #Navigation-div {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+
+        #Header-Banner-div {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 5px;
+        }
+
+        #SlideBar-BodyArea-div {
+            width: 100%;
+            margin-bottom: 5px;
+            justify-content: space-between;
+        }
+
+        #SlideBar-div {
+            width: 30%;
+            height: 350px;
+        }
+
+        #BodyArea-div {
+            width: 69%;
+             height: 350px;
+            
+        }
+
+        #Footer-div {
+            width: 100%;
+            height: 50px;
+        }
+
+
+        .backgroundcolor {
+            background-color: rgb(205, 201, 201);
+        }
+
+        .justify-content {
+            justify-content: center;
+        }
+
+        .display-flex {
+            display: flex;
+        }
+
+        .align-items {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-div">
+        <div id="logo-div" class="backgroundcolor display-flex align-items">Logo</div>
+        <div id="Navigation-div" class="backgroundcolor display-flex justify-content align-items">Navigation</div>
+        <div id="Header-Banner-div" class="backgroundcolor justify-content align-items display-flex">Header/Banner</div>
+        <div id="SlideBar-BodyArea-div" class="display-flex ">
+            <div id="SlideBar-div" class="backgroundcolor display-flex justify-content align-items">Slide Bar</div>
+            <div id="BodyArea-div" class="backgroundcolor display-flex justify-content align-items">Body Area</div>
+        </div>
+        <div id="Footer-div" class="backgroundcolor align-items justify-content display-flex ">Footer</div>
+    </div>
+</body>
+
+</html>

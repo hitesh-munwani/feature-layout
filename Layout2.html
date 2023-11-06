@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main-div {
+            margin: auto;
+            width: 90%;
+        }
+
+        #logo-navigation-div {
+            display: flex;
+        }
+
+
+        #logo-div {
+            width: 50%;
+            height: 50px;
+            padding-left: 20px;
+            margin-bottom: 5px;
+
+        }
+
+        #Navigation-div {
+            width: 50%;
+            height: 50px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+        }
+
+        #Header-Banner-div {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 5px;
+        }
+
+        #Intro-text-area-div {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 5px;
+        }
+
+        #box-container-div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .box {
+            width: 33%;
+            height: 450px;
+            display: flex;
+        }
+
+
+        #Footer-div {
+            width: 100%;
+            height: 50px;
+        }
+
+
+        .backgroundcolor {
+            background-color: rgb(205, 201, 201);
+        }
+
+        .justify-content {
+            justify-content: center;
+        }
+
+        .display-flex {
+            display: flex;
+        }
+
+        .align-items {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-div">
+        <div id="logo-navigation-div">
+            <div id="logo-div" class="backgroundcolor display-flex align-items">Logo</div>
+            <div id="Navigation-div" class="backgroundcolor display-flex align-items">Navigation</div>
+        </div>
+        <div id="Header-Banner-div" class="backgroundcolor justify-content align-items display-flex">Header/Banner</div>
+        <div id="Intro-text-area-div" class="backgroundcolor justify-content align-items display-flex">Intro Text Area
+        </div>
+        <div id="box-container-div">
+            <div id="box-1" class="backgroundcolor box justify-content align-items">Box 1</div>
+            <div id="box-2" class="backgroundcolor box justify-content align-items">Box 2</div>
+            <div id="box-3" class="backgroundcolor box justify-content align-items">Box 3</div>
+        </div>
+
+
+        <div id="Footer-div" class="backgroundcolor align-items justify-content display-flex ">Footer</div>
+    </div>
+</body>
+
+</html>
